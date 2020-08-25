@@ -1,0 +1,37 @@
+.message {
+    margin: 10px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 90%;
+    word-wrap: break-word;
+}
+
+.userNicknameStyle {
+    color: rgb(255, 127, 30);
+    font-weight: bold;
+}
+
+.nicknameStyle {
+    color: rgb(83, 76, 161);
+    font-weight: bold;
+}
+
+.editMessage {
+    outline: none;
+    width: 90%;
+    font-size: 20px;
+}
+
+.buttons {
+    padding-left: 10px;
+}
+
+.button {
+    background-color: rgb(191, 34, 118);
+    color: white;
+    width: 150px;
+    height: 35px; 
+    border-radius: 10px;
+    font-size: 15px;
+}

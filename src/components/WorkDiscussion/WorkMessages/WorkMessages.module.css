@@ -1,0 +1,28 @@
+.wrapper {
+    margin: 0 auto;
+    width: 30%;
+    background-color: white;
+}
+
+.messages {
+    padding: 20px 30px;
+}
+
+.form {
+    padding: 10px 40px;
+}
+
+.textarea {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.button {
+    margin-left: 70%;
+    background-color: rgb(191, 34, 118);
+    color: white;
+    width: 150px;
+    height: 35px; 
+    border-radius: 10px;
+    font-size: 15px;
+}

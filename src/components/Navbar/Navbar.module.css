@@ -1,0 +1,25 @@
+.nav {
+    grid-area: n;
+    background-color: rgb(191, 34, 118);
+    padding: 10px;
+}
+
+.item {
+    display: inline;
+    margin: 20px;
+}
+
+.login {
+    position: absolute;
+    right: 30px;
+    top: -10px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item a.activeLink{
+    color: gold;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+    min-width: 1915px;
+    min-height: 961px;
+    background-image: url('../assets/images/silhouettes.jpg');
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 100px;
+    font-family: cursive, sans-serif;
+    font-size: 45px;
+}

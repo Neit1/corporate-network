@@ -1,0 +1,5 @@
+.wrapper {
+    min-width: 1920px;
+    min-height: 1280px;
+    background-image: url('../../assets/images/web.jpg');
+}

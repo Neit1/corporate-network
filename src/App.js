@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import WorkDiscussion from './components/WorkDiscussion/WorkDiscussion';
+import { Route } from 'react-router-dom';
+import LoginContainer from './components/Login/LoginContainer';
+import NavbarContainer from './components/Navbar/NavbarContainer';
+import Chat from './components/Chat/Chat';
+import MainPage from './MainPage/MainPage';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='app-wrapper'>
+        <NavbarContainer />
+      </div>
+      <div className='app-wrapper-content'>
+        <Route exact path="/" render={() => <MainPage />} />
+        <Route path="/login" render={() => <LoginContainer />} />
+        <Route path="/work" render={() => <WorkDiscussion />} />
+        <Route path="/chat" render={() => <Chat />} />
+      </div>
     </div>
   );
 }

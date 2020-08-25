@@ -1,0 +1,38 @@
+.wrapper {
+    min-width: 1920px;
+    min-height: 1062px;
+    background-image: url('./../../assets/images/silhouettes.jpg');
+}
+
+.form {
+    position: absolute;
+    top: 250px;
+    left: 45%;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.warning {
+    position: absolute;
+    top: 200px;
+    left: 45%;
+    width: 300px;
+    margin: 0 auto;
+    color: red;
+    font-weight: bold;
+}
+
+.formItem {
+    margin: 10px;
+}
+
+.button {
+    background-color: rgb(191, 34, 118);
+    color: white;
+    width: 150px;
+    height: 35px; 
+    border-radius: 10px;
+    font-size: 15px;
+}
+
